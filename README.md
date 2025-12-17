@@ -53,12 +53,15 @@ Store custom Hangboard exercises via WiFi.
 3. Use any device to connect to the WiFi network named `ESP32-IntervalTimer` with the password `12345678`.
 4. Open a browser and navigate to `192.168.4.1`.
 5. Add exercises via the web interface.
+
 ![IMG_8727](./assets/IMG_8727.jpg)
+
 ### Select Exercise
 - **Short press**: Browse saved exercises.
-- **Long press** (1–3 seconds): Select an exercise.
+- **Long press** (1–3 seconds): Select and start an exercise.
+- after starting the exercise a 3 seconds "Get Ready!"-Timer starts
 - **Short press**: Pause the timer.
 - **Long press** (1-3 seconds): Stop the timer.
+
 ![IMG_8733](./assets/IMG_8739.JPG)
 ### Other Features
-- Placeholder for additional usage instructions.
