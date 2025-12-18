@@ -109,8 +109,8 @@ void webServerTask(void* parameter) {
 
                 WiFi.mode(WIFI_AP);
                 WiFi.softAP(ssid, password);
-                // Serial.println("Access Point gestartet!");
-                // Serial.print("IP-Adresse: ");
+                Serial.println("Access Point gestartet!");
+                Serial.print("IP-Adresse: ");
                 Serial.println(WiFi.softAPIP());
 
                 webService.registerRoutes(server);
@@ -321,7 +321,7 @@ void doExerciseStep(const Exercise& exercise, unsigned long now) {
             if (elapsed >= rep.timeRest * 1000UL) {
                 // zur nächsten Rep
                 runtime.repIndex++;
-                runtime.phase = RepState::PRE;
+                runtime.phase = RepState::IN_PROGRESS;
                 runtime.phaseStart = now;
             } else {
                 // printTimer(rep.timeRest * 1000UL - elapsed, "Rest");
@@ -332,7 +332,7 @@ void doExerciseStep(const Exercise& exercise, unsigned long now) {
             // Set erledigt → Set-Pause einleiten
             runtime.phase = RepState::SET_PAUSE;      // zusätzlicher Zustand
             runtime.phaseStart = now;
-            runtime.repIndex = 0;
+            // runtime.repIndex = 0;
         }
 
         break;
