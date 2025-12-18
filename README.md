@@ -43,7 +43,7 @@ Store custom Hangboard exercises via WiFi.
 
 ### Assembly
 - Use a 3D-printed case (PLA). STL files are available in the `stls` folder.
-- tbf the Assembly was a pain in the ass because I decided to do maximum space optimization, so feel free to design a bigger case
+- tbf the Assembly was a pain in the ass because I decided to do maximum space optimization, but the wires are all over the place, so feel free to design a bigger case
 <img src="./assets/ass.jpg" width="600">
 
 ---
@@ -61,9 +61,9 @@ Store custom Hangboard exercises via WiFi.
 
 ### Select Exercise
 - **Short press**: Browse saved exercises.
-- **Long press** (1–3 seconds): Select and start an exercise.
+- **Long press**: (1–3 seconds): Select and start an exercise.
 - After starting the exercise a 3 seconds "Get Ready!"-Timer starts
 - **Short press**: Pause the timer.
-- **Long press** (1-3 seconds): Stop the timer.
+- **Long press**: (1-3 seconds): Stop the timer.
 
 <img src="./assets/IMG_8739.JPG" width="600">
