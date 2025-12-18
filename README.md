@@ -1,4 +1,4 @@
-# IntervalTimer_for_ESP32C3
+# Hangboard Buddy for ESP32C3
 
 Store custom Hangboard exercises via WiFi.
 
@@ -14,11 +14,12 @@ Store custom Hangboard exercises via WiFi.
 - **Display**: 128x64px 0.96" OLED Display
   - Example: [Reichelt OLED Display](https://www.reichelt.de/de/de/shop/produkt/arduino_-_display_0_96_oled-display_ssd1306-320600)
 - **Button**: Standard 2-pin button (6x6x4mm)
-- **Lever**: two-position lever switch
+- **Lever**: two-position lever switch (found in my desk )
 - **Battery**: EREMIT 653040, 3.7V 800mAh LiPo Battery
 
 ### Layout
-- Placeholder for layout description.
+<img src="./assets/layout1.jpg" width="300">
+<img src="./assets/layout2.jpg" width="600">
 
 ---
 
@@ -42,6 +43,8 @@ Store custom Hangboard exercises via WiFi.
 
 ### Assembly
 - Use a 3D-printed case (PLA). STL files are available in the `stls` folder.
+- tbf the Assembly was a pain in the ass because I decided to do maximum space optimization, so feel free to design a bigger case
+<img src="./assets/ass.jpg" width="600">
 
 ---
 
@@ -59,10 +62,8 @@ Store custom Hangboard exercises via WiFi.
 ### Select Exercise
 - **Short press**: Browse saved exercises.
 - **Long press** (1–3 seconds): Select and start an exercise.
-- after starting the exercise a 3 seconds "Get Ready!"-Timer starts
+- After starting the exercise a 3 seconds "Get Ready!"-Timer starts
 - **Short press**: Pause the timer.
 - **Long press** (1-3 seconds): Stop the timer.
 
 <img src="./assets/IMG_8739.JPG" width="600">
-![IMG_8733](./assets/IMG_8739.JPG)
-### Other Features
